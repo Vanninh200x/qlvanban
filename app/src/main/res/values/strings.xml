@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">QLVB</string>
+
+    <string name="main_title">Văn Bản Hiện Hành</string>.
+
+    <string name="action_plus">Plus</string>
+    <string name="find_main_hint">Tìm kiếm theo tên</string>
+
+    <string name="menu_editPasswd">Cài đặt mật khẩu</string>
+    <string name="menu_editNotifi">Cài đặt thông báo</string>
+    <string name="menu_deleteNote">Xóa hết ghi chú</string>
+
+    <string name="add_ac_title">Tạo văn bản</string>
+    <string name="editText_title">Tên văn bản</string>
+    <string name="editText_NoiDung">Trích yếu</string>
+    <string name="editText_Time">Ngày và giờ ký</string>
+
+    <string name="button_chonngay">Chọn ngày</string>
+    <string name="button_chongio">Chọn giờ</string>
+
+    <string name="one_note_demo_tile">Tên văn bản</string>
+    <string name="one_note_demo_content">Nội dung văn bản</string>
+    <string name="one_note_demo_day">20 tháng 04 năm 2020</string>
+    <string name="one_note_demo_time">15:30</string>
+
+    <string name="detail_ac_header_title">Chi tiết</string>
+    <string name="detail_more_update_info">Ngày cập nhật: 31 Tháng 3 2022 14:36:32</string>
+
+
+    <string name="menu_title_share">Chia sẻ</string>
+    <string name="menu_title_edit">Sửa</string>
+    <string name="menu_title_delete">Xóa</string>
+    <string name="editNote_title">Sửa ghi chú</string>
+
+    <string name="textView_WhenImgNull_demo">H</string>
+    <string name="edit_passwd">Cài đặt mặt khẩu</string>
+    <string name="ediit_passwd_more">Vui lòng nhập một mật khẩu truy cập cho Ghi chú. Lưu ý rằng quên mật khẩu này, bạn sẽ không thể truy cập ứng dụng</string>
+    <string name="editpasswd_1">Nhập mật khẩu</string>
+    <string name="editpasswd_2">Nhập lại mật khẩu</string>
+
+    <string name="edit_notifi">Cài đặt thông báo</string>
+    <string name="edit_notifi_voice">Âm báo</string>
+    <string name="edit_notifi_buzz">Rung</string>
+    <string name="edit_notifi_lamp">Đèn báo</string>
+    <string name="text_btn_login">Đăng nhập</string>
+    <string name="menu_arrows_1">Arrows1</string>
+    <string name="delete_all">Xóa tất cả</string>
+    <string name="buzz">BUZZ</string>
+    <string name="addFail">Tạo thất bại đề nghị nhập đầy đủ</string>
+    <string name="AddSuccess">Thêm thành công</string>
+    <string name="updatelastTime">Ngày cập nhật: </string>
+    <string name="shareUsing">Chia sẻ</string>
+    <string name="requestInputFull">Đề nghị nhập đầy đủ</string>
+    <string name="requestInputpass">Đề nghị nhập mật khẩu</string>
+    <string name="requestpasswdequal">Đề nghị nhập mật khẩu giống nhau</string>
+    <string name="sohieuvanban">Số hiệu văn bản</string>
+    <string name="dinhkem">Đính kèm file</string>
+    <string name="loaivanban">Loại văn bản</string>
+    <string name="trangthai">Trạng thái văn bản</string>
+    <string name="coquan">Cơ quan gửi và nhận</string>
+    <string name="nguoiky">Người ký</string>
+    <string name="guinhanKMA">Số Hiệu: KMA</string>
+    <string name="vanbandi">Văn bản đi</string>
+    <string name="vanbanden">Văn bản đến</string>
+    <string name="quanlyvanban">Quản lý văn bản</string>
+
+</resources>

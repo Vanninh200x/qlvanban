@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rlvIMG"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/id_img_dd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_image" />
+
+        <include
+            android:id="@+id/id_img_null"
+            layout="@layout/img_when_null"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"></include>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/id_sohieuvb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/rlvIMG"
+        android:padding="3dp"
+        android:singleLine="true"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:hint="@string/sohieuvanban" />
+
+    <TextView
+        android:id="@+id/id_textV_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_sohieuvb"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/rlvIMG"
+        android:hint="@string/one_note_demo_tile"
+        android:padding="3dp"
+        android:singleLine="true"
+        android:textColor="@color/black"
+         />
+
+    <TextView
+        android:id="@+id/id_textV_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_textV_title"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/rlvIMG"
+        android:hint="@string/one_note_demo_content"
+        android:padding="3dp"
+        android:singleLine="true"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/id_loai_vanban"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_textV_content"
+        android:layout_marginStart="15dp"
+        android:layout_toRightOf="@id/rlvIMG"
+        android:hint="@string/loaivanban"
+        android:textColor="@color/black"
+        android:padding="3dp" />
+
+    <TextView
+        android:id="@+id/id_trang_thai_vb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_loai_vanban"
+        android:layout_marginStart="15dp"
+        android:layout_toRightOf="@id/rlvIMG"
+        android:textColor="@color/black"
+        android:hint="Trạng thái văn bản"
+        android:padding="3dp" />
+
+    <View
+        android:id="@+id/id_View_ngang"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/id_trang_thai_vb"
+        android:layout_toRightOf="@+id/rlvIMG"
+        android:layout_marginStart="15dp"
+        android:background="@color/Color_under_title" />
+
+
+    <ImageView
+        android:id="@+id/id_imgV_clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_trang_thai_vb"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/rlvIMG"
+        android:padding="10dp"
+        android:src="@drawable/ic_alarm_clock" />
+
+    <TextView
+        android:id="@+id/id_textV_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_View_ngang"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/id_imgV_clock"
+        android:hint="@string/one_note_demo_day" />
+
+
+    <TextView
+        android:id="@+id/id_textV_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_textV_day"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/id_imgV_clock"
+        android:text="@string/one_note_demo_time" />
+
+
+
+
+</RelativeLayout>
